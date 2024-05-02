@@ -1,9 +1,9 @@
 # Ebook App
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/YourUsername/YourRepository?style=social)](https://github.com/YourUsername/YourRepository/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/YourUsername/YourRepository?style=social)](https://github.com/YourUsername/YourRepository/network)
-[![GitHub watchers](https://img.shields.io/github/watchers/YourUsername/YourRepository?style=social)](https://github.com/YourUsername/YourRepository/watchers)
+[![GitHub stars](https://img.shields.io/github/stars/YourUsername/YourRepository?style=social)](https://github.com/Flutter-Ebook-App/YourRepository/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/YourUsername/YourRepository?style=social)](https://github.com/YourUsername/Flutter-Ebook-App/network)
+[![GitHub watchers](https://img.shields.io/github/watchers/YourUsername/YourRepository?style=social)](https://github.com/YourUsername/Flutter-Ebook-App/watchers)
 
 
 ## Description
