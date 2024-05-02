@@ -1,4 +1,6 @@
-import 'package:ebook_app/source/common/color_extenstion.dart';
+import 'package:ebook_app/source/common/theme/color_extenstion.dart';
+import 'package:ebook_app/source/screen/onboarding/onboarding.dart';
+import 'package:ebook_app/source/screen/onboarding/onboarding_final.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -20,8 +22,7 @@ class MyApp extends StatelessWidget {
         primaryColor: TColor.primary,
         fontFamily: 'SF Pro Text',
       ),
-
-      // home: const HomeScreen(),
+      home: const OnboaridngFinalScreen(),
     );
   }
 }
