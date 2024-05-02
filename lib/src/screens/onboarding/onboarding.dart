@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:ebook_app/source/screen/onboarding/component/onboard_items.dart';
-import 'package:ebook_app/source/common/theme/color_extenstion.dart';
+import 'package:ebook_app/src/screens/onboarding/component/data/onboard_items.dart';
+import 'package:ebook_app/src/common/theme/app_color/color_extenstion.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
 class OnboardingScreen extends StatefulWidget {

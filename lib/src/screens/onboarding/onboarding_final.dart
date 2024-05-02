@@ -1,5 +1,5 @@
-import 'package:ebook_app/source/common/theme/color_extenstion.dart';
-import 'package:ebook_app/source/common/utils/mybutton.dart';
+import 'package:ebook_app/src/common/theme/app_color/color_extenstion.dart';
+import 'package:ebook_app/src/common/widgets/mybutton.dart';
 import 'package:flutter/material.dart';
 
 class OnboaridngFinalScreen extends StatefulWidget {

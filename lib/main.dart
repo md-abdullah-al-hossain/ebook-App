@@ -1,6 +1,5 @@
-import 'package:ebook_app/source/common/theme/color_extenstion.dart';
-import 'package:ebook_app/source/screen/onboarding/onboarding.dart';
-import 'package:ebook_app/source/screen/onboarding/onboarding_final.dart';
+import 'package:ebook_app/src/common/theme/app_color/color_extenstion.dart';
+import 'package:ebook_app/src/screens/onboarding/onboarding_final.dart';
 import 'package:flutter/material.dart';
 
 void main() {
