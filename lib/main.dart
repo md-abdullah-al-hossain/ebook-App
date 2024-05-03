@@ -1,6 +1,7 @@
 import 'package:ebook_app/src/common/theme/app_color/color_extenstion.dart';
 import 'package:ebook_app/src/screens/auth/sign_in2.dart';
 import 'package:ebook_app/src/screens/auth/sign_up.dart';
+import 'package:ebook_app/src/screens/more/help_us.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -22,7 +23,7 @@ class MyApp extends StatelessWidget {
         primaryColor: TColor.primary,
         fontFamily: 'SF Pro Text',
       ),
-      home: Signin2(),
+      home: HelpUs(KeyboardType: null,),
     );
   }
 }
