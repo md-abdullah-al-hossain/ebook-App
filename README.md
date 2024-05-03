@@ -1,54 +1,108 @@
-# Ebook App
+# eBook App
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/YourUsername/YourRepository?style=social)](https://github.com/Flutter-Ebook-App/YourRepository/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/YourUsername/YourRepository?style=social)](https://github.com/YourUsername/Flutter-Ebook-App/network)
-[![GitHub watchers](https://img.shields.io/github/watchers/YourUsername/YourRepository?style=social)](https://github.com/YourUsername/Flutter-Ebook-App/watchers)
+## Discription
 
-
-## Description
-
-Welcome to our Ebook App! This app provides users with a seamless reading experience on their devices, offering a vast library of ebooks and a user-friendly interface for browsing, purchasing, and reading.
-
-## Preview
-
-<img src="https://cdn.uistore.design/assets/images/book-grocer-ui-kit-for-adobe-xd.webp" alt="App Preview" width="1000">
+This Flutter application is an eBook reader app designed to provide users with a seamless reading experience on their mobile devices. The app allows users to browse, search, and read eBooks from a wide range of genres.
 
 
-## Features
+# App Preview 👀
 
-- 📚 Browse a vast library of ebooks
-- 🔎 Search for specific titles, authors, or genres
-- 🛍️ Purchase and download ebooks for offline reading
-- 🧑🏽‍💻 Customize reading settings (font size, color scheme, etc.
+### fast look 
+![fast look](https://github.com/imdurjoy/Flutter-Ebook-App/assets/161208708/3125b754-9a5c-4e2c-a549-50467087768e)
 
-- 📌 Bookmark pages and sync across devices
-- 📕 Access to free and paid ebooks
-- 📱 User-friendly interface for easy navigation
+
+
+<br>
+
+### Onboarding 
+
+![Onbaording](https://github.com/imdurjoy/Flutter-Ebook-App/assets/161208708/b4fddf0f-ca56-41af-9cc9-cb55bdfeb9a3)
+
+
+<br>
+
+### Sign In - Sign Up
+![4f1dbe83678145 5d43aebc011ed](https://github.com/imdurjoy/Flutter-Ebook-App/assets/161208708/6834a699-9b05-447a-a60e-78d80a45ca03)
+
+
+
+<br>
+
+### Home & Side Menu
+![5ae73c83678145 5d43b35abda06](https://github.com/imdurjoy/Flutter-Ebook-App/assets/161208708/7825e631-6466-4798-a3bc-613ce725c88c)
+
+
+<br>
+
+### About & Profile Pages
+
+![07af0a83678145 5d43b35abd211](https://github.com/imdurjoy/Flutter-Ebook-App/assets/161208708/c21386c5-6f4d-4da9-8f18-4debc1396984)
+
+<br>
+
+### Search - Result - Filter Pages
+![d7f3b983678145 5d43b35abd5ad](https://github.com/imdurjoy/Flutter-Ebook-App/assets/161208708/ccfb9db1-dc74-44ab-91bd-ca28371c0cda)
+
+<br>
+
+### In App Reading
+
+![bc018883678145 5d43b35abccf2](https://github.com/imdurjoy/Flutter-Ebook-App/assets/161208708/729e6a76-aa50-42e4-ac52-d85ee7af11f5)
 
 ## Installation
 
-#### Download it from hare ⬇️
+1. **Clone the repository**:
 
-<img src="https://github.com/md-durjoy/Flutter-Ebook-App/assets/161208708/6240e0f7-945c-4d72-80e6-6d25734c2e7c" alt="Apk File" width="200" >
+```
+git clone https://github.com/imdurjoy/Flutter-Ebook-App.git
+```
 
+2. **Navigate to the project directory**:
 
-## Usage
+```
+cd Flutter-Ebook-App
+```
 
-1. Open the app on your device.
-2. Browse or search for ebooks.
-3. Purchase or download ebooks.
-4. Start reading and enjoy!
+3. **Install dependencies**:
+
+```
+flutter pub get
+```
+
+4. **Run the app**:
+
+```
+flutter run
+```
+
 
 ## Contributing
 
-Contributions are welcome! If you have any suggestions, bug reports, or feature requests, please open an issue or submit a pull request.
+Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue or submit a pull request.
+
 
 ## Contact
 
-For any inquiries or support, feel free to contact us:
+For inquiries about this project or collaboration opportunities, you can reach out to:
 
+**MD Durjoy**
+<br>
+ Flutter App developer!
+<br>
 - Email: fekody.dev@gmail.com
+---
 
-#### Subscribe Us For More
+### Subscribe for more!
 [![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://www.youtube.com/channel/UC8xaTH9O8H1hrLHZ78Kntwg)
+
+
+## 💼 More Projects
+
+### 1. [Flutter Ebook App](https://github.com/imdurjoy/Flutter-Ebook-App.git)
+
+
+### 2. [ 100 Login Screen UI ](https://github.com/imdurjoy/100-Login-Screen-UI.git)
+
+
+### 3. [Grocery Shop App ](https://github.com/imdurjoy/Grocery-Shop-App.git)
+
