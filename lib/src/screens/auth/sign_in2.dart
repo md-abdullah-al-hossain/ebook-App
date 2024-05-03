@@ -5,18 +5,18 @@ import 'package:ebook_app/src/common/widgets/round_textfield.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
-class Signin2 extends StatefulWidget {
+class ForgotPassword extends StatefulWidget {
   TextEditingController textCode = TextEditingController();
   TextEditingController textPassword = TextEditingController();
   TextEditingController textEmail = TextEditingController();
   bool isStay = false;
-  Signin2({super.key});
+  ForgotPassword({super.key});
 
   @override
-  State<Signin2> createState() => _Signin2State();
+  State<ForgotPassword> createState() => _ForgotPasswordState();
 }
 
-class _Signin2State extends State<Signin2> {
+class _ForgotPasswordState extends State<ForgotPassword> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
