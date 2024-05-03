@@ -1,4 +1,4 @@
-import 'package:ebook_app/src/common/theme/app_color/color_extenstion.dart';
+import 'package:ebook_app/src/themes/app_color/color_extenstion.dart';
 import 'package:flutter/material.dart';
 
 class CustomOutlineButton extends StatelessWidget {

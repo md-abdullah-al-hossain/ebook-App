@@ -1,22 +1,21 @@
-import 'package:ebook_app/src/common/theme/app_color/color_extenstion.dart';
-import 'package:ebook_app/src/common/widgets/mybutton.dart';
-import 'package:ebook_app/src/common/widgets/outline_buttobn.dart';
-import 'package:ebook_app/src/common/widgets/round_textfield.dart';
+import 'package:ebook_app/src/themes/app_color/color_extenstion.dart';
+import 'package:ebook_app/src/widgets/outline_buttobn.dart';
+import 'package:ebook_app/src/widgets/round_textfield.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
-class ForgotPassword extends StatefulWidget {
+class SingIn extends StatefulWidget {
   TextEditingController textCode = TextEditingController();
   TextEditingController textPassword = TextEditingController();
   TextEditingController textEmail = TextEditingController();
   bool isStay = false;
-  ForgotPassword({super.key});
+  SingIn({super.key});
 
   @override
-  State<ForgotPassword> createState() => _ForgotPasswordState();
+  State<SingIn> createState() => _SingInState();
 }
 
-class _ForgotPasswordState extends State<ForgotPassword> {
+class _SingInState extends State<SingIn> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -53,7 +52,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                 height: 20,
               ),
               RoundTextfield(
-                hintext: 'Username',
+                hintext: 'Optional Group Special Code',
                 controller: widget.textCode,
                 keyboardType: null,
                 obscureText: false,
@@ -62,7 +61,7 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                 height: 20,
               ),
               RoundTextfield(
-                hintext: 'Email',
+                hintext: 'Email Adress',
                 controller: widget.textEmail,
                 keyboardType: null,
                 obscureText: false,
@@ -76,15 +75,16 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                 keyboardType: null,
                 obscureText: true,
               ),
+              const SizedBox(
+                height: 20,
+              ),
               Row(
                 children: [
                   IconButton(
                     onPressed: () {
-                      setState(
-                        () {
-                          widget.isStay = !widget.isStay;
-                        },
-                      );
+                      setState(() {
+                        widget.isStay = !widget.isStay;
+                      });
                     },
                     icon: Icon(
                       widget.isStay
@@ -95,10 +95,14 @@ class _ForgotPasswordState extends State<ForgotPassword> {
                           : TColor.subTitle.withOpacity(0.3),
                     ),
                   ),
-                  const Text(
-                    'Please Sign up for mothly newsletter.',
-                    style: TextStyle(
-                      color: Colors.grey,
+                  const Spacer(),
+                  TextButton(
+                    onPressed: () {},
+                    child: Text(
+                      'Forgot Your Password?',
+                      style: TextStyle(
+                        color: TColor.subTitle,
+                      ),
                     ),
                   ),
                 ],
@@ -106,15 +110,10 @@ class _ForgotPasswordState extends State<ForgotPassword> {
               const SizedBox(
                 height: 30,
               ),
-              MyButton(
+              CustomOutlineButton(
                 text: 'Sign In',
-                height: 60,
-                color: TColor.primary,
-                textColor: Colors.white,
-                style: const TextStyle(
-                  fontSize: 25,
-                ),
-              )
+                textColor: TColor.primary,
+              ),
             ],
           ),
         ),

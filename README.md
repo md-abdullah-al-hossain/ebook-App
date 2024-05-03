@@ -49,31 +49,6 @@ This Flutter application is an eBook reader app designed to provide users with a
 
 ![bc018883678145 5d43b35abccf2](https://github.com/imdurjoy/Flutter-Ebook-App/assets/161208708/729e6a76-aa50-42e4-ac52-d85ee7af11f5)
 
-## Installation
-
-1. **Clone the repository**:
-
-```
-git clone https://github.com/imdurjoy/Flutter-Ebook-App.git
-```
-
-2. **Navigate to the project directory**:
-
-```
-cd Flutter-Ebook-App
-```
-
-3. **Install dependencies**:
-
-```
-flutter pub get
-```
-
-4. **Run the app**:
-
-```
-flutter run
-```
 
 
 ## Contributing

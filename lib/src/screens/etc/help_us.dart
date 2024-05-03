@@ -1,6 +1,6 @@
-import 'package:ebook_app/src/common/theme/app_color/color_extenstion.dart';
-import 'package:ebook_app/src/common/widgets/outline_buttobn.dart';
-import 'package:ebook_app/src/common/widgets/round_textfield.dart';
+import 'package:ebook_app/src/themes/app_color/color_extenstion.dart';
+import 'package:ebook_app/src/widgets/outline_buttobn.dart';
+import 'package:ebook_app/src/widgets/round_textfield.dart';
 import 'package:flutter/material.dart';
 
 // ignore: must_be_immutable
