@@ -3,7 +3,7 @@ import 'package:ebook_app/src/common/widgets/mybutton.dart';
 import 'package:flutter/material.dart';
 
 class OnboaridngFinalScreen extends StatefulWidget {
-  const OnboaridngFinalScreen({Key? key}) : super(key: key);
+  const OnboaridngFinalScreen({super.key});
 
   @override
   State<OnboaridngFinalScreen> createState() => _OnboaridngFinalScreenState();
@@ -23,7 +23,7 @@ class _OnboaridngFinalScreenState extends State<OnboaridngFinalScreen> {
               width: responsive.width,
               fit: BoxFit.cover,
             ),
-            Container(
+            SizedBox(
               width: responsive.width,
               child: Padding(
                 padding:
@@ -46,13 +46,13 @@ class _OnboaridngFinalScreenState extends State<OnboaridngFinalScreen> {
                       height: 60, // Set a specific height for the button
                       color: TColor.primary,
                       textColor: Colors.white,
-                      shape: 15, // Set the border radius for the button
-                      style: TextStyle(
+                      // Set the border radius for the button
+                      style: const TextStyle(
                         fontSize: 23,
                         fontWeight: FontWeight.w600,
                       ), // Add your text style here
                     ),
-                    SizedBox(
+                    const SizedBox(
                       height: 20,
                     ),
                     MyButton(
@@ -60,8 +60,8 @@ class _OnboaridngFinalScreenState extends State<OnboaridngFinalScreen> {
                       height: 60, // Set a specific height for the button
                       color: TColor.primary,
                       textColor: Colors.white,
-                      shape: 15, // Set the border radius for the button
-                      style: TextStyle(
+                      // Set the border radius for the button
+                      style: const TextStyle(
                         fontSize: 23,
                         fontWeight: FontWeight.w600,
                       ), // Add your text style here

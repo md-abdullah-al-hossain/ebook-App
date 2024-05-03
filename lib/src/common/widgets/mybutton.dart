@@ -5,18 +5,17 @@ class MyButton extends StatelessWidget {
   final double height;
   final Color color;
   final Color textColor;
-  final double shape;
+
   final TextStyle style;
 
   const MyButton({
-    Key? key,
+    super.key,
     required this.text,
     required this.height,
     required this.color,
     required this.textColor,
-    required this.shape,
     required this.style,
-  }) : super(key: key);
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -29,14 +28,12 @@ class MyButton extends StatelessWidget {
         height: height,
         minWidth: double.maxFinite,
         shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(shape),
+          borderRadius: BorderRadius.circular(15),
         ),
-        child: Text(text,
+        child: Text(
+          text,
           style: style,
         ),
-        
-      
-        
       ),
     );
   }
