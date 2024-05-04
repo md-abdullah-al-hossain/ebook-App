@@ -12,8 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^1.0.6
-  smooth_page_indicator: ^1.1.0
+  cupertino_icons:
+  carousel_slider:
+  flutter_rating_bar:
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
